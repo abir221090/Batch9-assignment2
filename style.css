@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Mulish', sans-serif;
-    margin:0px 50px;
+    margin:0px 0px;
 
 }
             /* header style */
@@ -245,10 +245,85 @@ font-family: Mulish;
 font-size: 1rem;
 font-weight: 700;
 }
-
-
-
-
+.newsletter{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 10px;
+    
+    
+}
+.newsletter-box{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding:60px;
+    
+    margin-bottom: 160px;
+}
+.newsletter-inputs{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding:16px 250px 16px 20px;
+    border:0px;
+    
+}
+.subscribe-button{
+color:#ffff;
+border:0px;
+padding:14px 200px 14px 200px;
+border-radius: 8px;
+background: #FF5400;
+margin-bottom: 5px;
+}
+.sticker{
+margin: 0px;
+width: 40%;
+padding:5px;   
+border-radius: 16px;
+background: #FF5400;
+color:#ffff;
+position: relative;
+bottom: 200px;
+left:350px;
+}
+.save{
+padding: 0;
+text-align: center;
+margin-top: 0px;
+color: #FFF;
+font-family: Mulish;
+font-size: 2rem;
+font-weight: 800;
+}
+.travel{
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size:1.5rem;
+font-weight: 400;
+}
+footer{
+    padding:80px;
+    margin-top: 0px;
+    
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons{
+    text-align: center;
+}
+#last-line{
+text-align: center;
+color: #131318;
+font-size: 1rem;
+font-weight: 300;
+}
 
 /* mobile device style here  */
 
