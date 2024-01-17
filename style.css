@@ -330,17 +330,39 @@ font-weight: 300;
 
 /* mobile device style here  */
 
-@media screen and (max-width:600px) {
-    body{
+@media only screen and (max-width: 600px) {
+    header ul,header{
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .Explore{
+        height: 50vh;
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .explore-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .our-plan,.choose-destination{
+        flex-direction: column;
         padding: 0;
         margin: 0;
     }
-    header ul{
-        display:none;
+    .choose-destination-grid{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
     }
-    .display-mobile{
-        display: block;
-    }
-  
+   .choose-card{
     
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+   }
+ 
 }
